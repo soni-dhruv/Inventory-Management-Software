@@ -1,0 +1,10 @@
+E:\MY PGDIT\Semester 2\IMS\IMS\IMS\bin\Debug\IMS.exe.config
+E:\MY PGDIT\Semester 2\IMS\IMS\IMS\bin\Debug\IMS.exe
+E:\MY PGDIT\Semester 2\IMS\IMS\IMS\bin\Debug\IMS.pdb
+E:\MY PGDIT\Semester 2\IMS\IMS\IMS\obj\Debug\IMS.csprojAssemblyReference.cache
+E:\MY PGDIT\Semester 2\IMS\IMS\IMS\obj\Debug\IMS.Form1.resources
+E:\MY PGDIT\Semester 2\IMS\IMS\IMS\obj\Debug\IMS.Properties.Resources.resources
+E:\MY PGDIT\Semester 2\IMS\IMS\IMS\obj\Debug\IMS.csproj.GenerateResource.cache
+E:\MY PGDIT\Semester 2\IMS\IMS\IMS\obj\Debug\IMS.csproj.CoreCompileInputs.cache
+E:\MY PGDIT\Semester 2\IMS\IMS\IMS\obj\Debug\IMS.exe
+E:\MY PGDIT\Semester 2\IMS\IMS\IMS\obj\Debug\IMS.pdb
