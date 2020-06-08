@@ -1,6 +1,6 @@
 ﻿namespace IMS
 {
-    partial class Form1
+    partial class LoginForm
     {
         /// <summary>
         /// Required designer variable.
@@ -28,11 +28,11 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(LoginForm));
             this.LoginPicture = new System.Windows.Forms.PictureBox();
             this.UserLoginLabel = new System.Windows.Forms.Label();
             this.uName = new System.Windows.Forms.Label();
-            this.txtBoxUname = new System.Windows.Forms.TextBox();
+            this.txtBoxuID = new System.Windows.Forms.TextBox();
             this.txtBoxPassword = new System.Windows.Forms.TextBox();
             this.uPassword = new System.Windows.Forms.Label();
             this.RememberMe = new System.Windows.Forms.CheckBox();
@@ -71,26 +71,28 @@
             this.uName.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.uName.Location = new System.Drawing.Point(47, 191);
             this.uName.Name = "uName";
-            this.uName.Size = new System.Drawing.Size(100, 22);
+            this.uName.Size = new System.Drawing.Size(70, 22);
             this.uName.TabIndex = 4;
-            this.uName.Text = "User Name";
+            this.uName.Text = "User ID";
             // 
-            // txtBoxUname
+            // txtBoxuID
             // 
-            this.txtBoxUname.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtBoxUname.Location = new System.Drawing.Point(51, 216);
-            this.txtBoxUname.Name = "txtBoxUname";
-            this.txtBoxUname.Size = new System.Drawing.Size(262, 23);
-            this.txtBoxUname.TabIndex = 5;
+            this.txtBoxuID.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtBoxuID.Location = new System.Drawing.Point(51, 216);
+            this.txtBoxuID.Name = "txtBoxuID";
+            this.txtBoxuID.Size = new System.Drawing.Size(262, 22);
+            this.txtBoxuID.TabIndex = 5;
+            this.txtBoxuID.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txtBoxPassword_KeyDown);
             // 
             // txtBoxPassword
             // 
-            this.txtBoxPassword.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtBoxPassword.Font = new System.Drawing.Font("Arial", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtBoxPassword.Location = new System.Drawing.Point(51, 273);
             this.txtBoxPassword.Name = "txtBoxPassword";
             this.txtBoxPassword.PasswordChar = '●';
             this.txtBoxPassword.Size = new System.Drawing.Size(262, 23);
             this.txtBoxPassword.TabIndex = 7;
+            this.txtBoxPassword.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txtBoxPassword_KeyDown);
             // 
             // uPassword
             // 
@@ -131,7 +133,7 @@
             this.btnLogin.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnLogin.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnLogin.ForeColor = System.Drawing.Color.White;
-            this.btnLogin.Location = new System.Drawing.Point(51, 337);
+            this.btnLogin.Location = new System.Drawing.Point(50, 343);
             this.btnLogin.Name = "btnLogin";
             this.btnLogin.Size = new System.Drawing.Size(262, 30);
             this.btnLogin.TabIndex = 10;
@@ -145,12 +147,13 @@
             this.btnSignup.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnSignup.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnSignup.ForeColor = System.Drawing.Color.White;
-            this.btnSignup.Location = new System.Drawing.Point(51, 382);
+            this.btnSignup.Location = new System.Drawing.Point(50, 385);
             this.btnSignup.Name = "btnSignup";
             this.btnSignup.Size = new System.Drawing.Size(262, 30);
             this.btnSignup.TabIndex = 11;
             this.btnSignup.Text = "New User? Signup here";
             this.btnSignup.UseVisualStyleBackColor = false;
+            this.btnSignup.Click += new System.EventHandler(this.btnSignup_Click);
             // 
             // Close
             // 
@@ -159,7 +162,7 @@
             this.Close.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.Close.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Close.ForeColor = System.Drawing.SystemColors.GrayText;
-            this.Close.Location = new System.Drawing.Point(324, 12);
+            this.Close.Location = new System.Drawing.Point(333, 3);
             this.Close.Name = "Close";
             this.Close.Size = new System.Drawing.Size(29, 30);
             this.Close.TabIndex = 12;
@@ -179,7 +182,7 @@
             this.LLPasswordShow.Text = "Show";
             this.LLPasswordShow.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.LLPasswordShow_LinkClicked);
             // 
-            // Form1
+            // LoginForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -193,13 +196,13 @@
             this.Controls.Add(this.RememberMe);
             this.Controls.Add(this.txtBoxPassword);
             this.Controls.Add(this.uPassword);
-            this.Controls.Add(this.txtBoxUname);
+            this.Controls.Add(this.txtBoxuID);
             this.Controls.Add(this.uName);
             this.Controls.Add(this.UserLoginLabel);
             this.Controls.Add(this.LoginPicture);
             this.ForeColor = System.Drawing.SystemColors.GrayText;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Name = "Form1";
+            this.Name = "LoginForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.Form1_Load);
@@ -214,7 +217,7 @@
         private System.Windows.Forms.PictureBox LoginPicture;
         private System.Windows.Forms.Label UserLoginLabel;
         private System.Windows.Forms.Label uName;
-        private System.Windows.Forms.TextBox txtBoxUname;
+        private System.Windows.Forms.TextBox txtBoxuID;
         private System.Windows.Forms.TextBox txtBoxPassword;
         private System.Windows.Forms.Label uPassword;
         private System.Windows.Forms.CheckBox RememberMe;

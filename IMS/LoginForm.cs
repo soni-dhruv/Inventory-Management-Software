@@ -10,23 +10,25 @@ using System.Windows.Forms;
 
 namespace IMS
 {
-    public partial class Form1 : Form
+    public partial class LoginForm : Form
     {
-        public Form1()
+        public LoginForm()
         {
             InitializeComponent();
         }
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            this.ActiveControl = txtBoxUname;
+            this.ActiveControl = txtBoxuID;
         }
 
+        //X close button
         private void Close_Click(object sender, EventArgs e)
         {
             Application.Exit();
         }
 
+        //Hide Show Password
         private void LLPasswordShow_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
             if(LLPasswordShow.Text == "Show")
@@ -39,6 +41,22 @@ namespace IMS
                 txtBoxPassword.PasswordChar = '●';
                 LLPasswordShow.Text = "Show";
             }
+        }
+
+        //Enter Key Event
+        private void txtBoxPassword_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.Enter)
+            {
+                btnLogin.PerformClick();
+            }
+        }
+
+        private void btnSignup_Click(object sender, EventArgs e)
+        {
+            SignupForm sf = new SignupForm();
+            sf.Show();
+            this.Hide();
         }
     }
 }
