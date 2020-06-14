@@ -52,6 +52,7 @@
             this.errorProvider1 = new System.Windows.Forms.ErrorProvider(this.components);
             this.errorProvider2 = new System.Windows.Forms.ErrorProvider(this.components);
             this.llCnfShow = new System.Windows.Forms.LinkLabel();
+            this.UserSignupLabel = new System.Windows.Forms.Label();
             this.SignUpPanel.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.errorProvider1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.errorProvider2)).BeginInit();
@@ -62,9 +63,9 @@
             this.SignUpPanel.BackColor = System.Drawing.Color.Blue;
             this.SignUpPanel.Controls.Add(this.Close);
             this.SignUpPanel.Controls.Add(this.lblSignUpForm);
-            this.SignUpPanel.Location = new System.Drawing.Point(-1, 0);
+            this.SignUpPanel.Location = new System.Drawing.Point(0, 0);
             this.SignUpPanel.Name = "SignUpPanel";
-            this.SignUpPanel.Size = new System.Drawing.Size(368, 50);
+            this.SignUpPanel.Size = new System.Drawing.Size(365, 55);
             this.SignUpPanel.TabIndex = 0;
             // 
             // Close
@@ -74,9 +75,9 @@
             this.Close.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.Close.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Close.ForeColor = System.Drawing.Color.White;
-            this.Close.Location = new System.Drawing.Point(333, 3);
+            this.Close.Location = new System.Drawing.Point(335, -1);
             this.Close.Name = "Close";
-            this.Close.Size = new System.Drawing.Size(29, 30);
+            this.Close.Size = new System.Drawing.Size(30, 30);
             this.Close.TabIndex = 14;
             this.Close.Text = "X";
             this.Close.UseVisualStyleBackColor = false;
@@ -85,20 +86,20 @@
             // lblSignUpForm
             // 
             this.lblSignUpForm.AutoSize = true;
-            this.lblSignUpForm.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblSignUpForm.Font = new System.Drawing.Font("Microsoft Sans Serif", 21.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblSignUpForm.ForeColor = System.Drawing.Color.White;
-            this.lblSignUpForm.Location = new System.Drawing.Point(61, 9);
+            this.lblSignUpForm.Location = new System.Drawing.Point(43, 12);
             this.lblSignUpForm.Name = "lblSignUpForm";
-            this.lblSignUpForm.Size = new System.Drawing.Size(237, 31);
+            this.lblSignUpForm.Size = new System.Drawing.Size(280, 33);
             this.lblSignUpForm.TabIndex = 1;
-            this.lblSignUpForm.Text = "New User Sign Up";
+            this.lblSignUpForm.Text = "Dhruv Stock System";
             // 
             // fName
             // 
             this.fName.AutoSize = true;
             this.fName.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.fName.ForeColor = System.Drawing.SystemColors.GrayText;
-            this.fName.Location = new System.Drawing.Point(11, 65);
+            this.fName.Location = new System.Drawing.Point(11, 116);
             this.fName.Name = "fName";
             this.fName.Size = new System.Drawing.Size(81, 18);
             this.fName.TabIndex = 1;
@@ -109,7 +110,7 @@
             this.mobileNo.AutoSize = true;
             this.mobileNo.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.mobileNo.ForeColor = System.Drawing.SystemColors.GrayText;
-            this.mobileNo.Location = new System.Drawing.Point(11, 120);
+            this.mobileNo.Location = new System.Drawing.Point(11, 171);
             this.mobileNo.Name = "mobileNo";
             this.mobileNo.Size = new System.Drawing.Size(109, 18);
             this.mobileNo.TabIndex = 2;
@@ -120,7 +121,7 @@
             this.userId.AutoSize = true;
             this.userId.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.userId.ForeColor = System.Drawing.SystemColors.GrayText;
-            this.userId.Location = new System.Drawing.Point(11, 175);
+            this.userId.Location = new System.Drawing.Point(11, 226);
             this.userId.Name = "userId";
             this.userId.Size = new System.Drawing.Size(58, 18);
             this.userId.TabIndex = 3;
@@ -131,7 +132,7 @@
             this.password.AutoSize = true;
             this.password.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.password.ForeColor = System.Drawing.SystemColors.GrayText;
-            this.password.Location = new System.Drawing.Point(11, 230);
+            this.password.Location = new System.Drawing.Point(11, 281);
             this.password.Name = "password";
             this.password.Size = new System.Drawing.Size(75, 18);
             this.password.TabIndex = 4;
@@ -142,7 +143,7 @@
             this.confirmPassword.AutoSize = true;
             this.confirmPassword.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.confirmPassword.ForeColor = System.Drawing.SystemColors.GrayText;
-            this.confirmPassword.Location = new System.Drawing.Point(11, 285);
+            this.confirmPassword.Location = new System.Drawing.Point(11, 336);
             this.confirmPassword.Name = "confirmPassword";
             this.confirmPassword.Size = new System.Drawing.Size(132, 18);
             this.confirmPassword.TabIndex = 5;
@@ -155,7 +156,7 @@
             this.btnSignUp.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnSignUp.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnSignUp.ForeColor = System.Drawing.Color.White;
-            this.btnSignUp.Location = new System.Drawing.Point(50, 343);
+            this.btnSignUp.Location = new System.Drawing.Point(50, 394);
             this.btnSignUp.Name = "btnSignUp";
             this.btnSignUp.Size = new System.Drawing.Size(262, 30);
             this.btnSignUp.TabIndex = 12;
@@ -169,7 +170,7 @@
             this.btn2Login.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn2Login.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn2Login.ForeColor = System.Drawing.Color.White;
-            this.btn2Login.Location = new System.Drawing.Point(50, 385);
+            this.btn2Login.Location = new System.Drawing.Point(50, 436);
             this.btn2Login.Name = "btn2Login";
             this.btn2Login.Size = new System.Drawing.Size(262, 30);
             this.btn2Login.TabIndex = 13;
@@ -180,7 +181,7 @@
             // txtBoxFName
             // 
             this.txtBoxFName.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtBoxFName.Location = new System.Drawing.Point(14, 86);
+            this.txtBoxFName.Location = new System.Drawing.Point(14, 137);
             this.txtBoxFName.Name = "txtBoxFName";
             this.txtBoxFName.Size = new System.Drawing.Size(163, 22);
             this.txtBoxFName.TabIndex = 6;
@@ -189,7 +190,7 @@
             // txtBoxMobileNo
             // 
             this.txtBoxMobileNo.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtBoxMobileNo.Location = new System.Drawing.Point(14, 141);
+            this.txtBoxMobileNo.Location = new System.Drawing.Point(14, 192);
             this.txtBoxMobileNo.Name = "txtBoxMobileNo";
             this.txtBoxMobileNo.Size = new System.Drawing.Size(163, 22);
             this.txtBoxMobileNo.TabIndex = 7;
@@ -198,7 +199,7 @@
             // txtUid
             // 
             this.txtUid.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtUid.Location = new System.Drawing.Point(14, 196);
+            this.txtUid.Location = new System.Drawing.Point(14, 247);
             this.txtUid.Name = "txtUid";
             this.txtUid.Size = new System.Drawing.Size(335, 22);
             this.txtUid.TabIndex = 8;
@@ -206,7 +207,7 @@
             // txtBoxPassword
             // 
             this.txtBoxPassword.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtBoxPassword.Location = new System.Drawing.Point(14, 251);
+            this.txtBoxPassword.Location = new System.Drawing.Point(14, 302);
             this.txtBoxPassword.Name = "txtBoxPassword";
             this.txtBoxPassword.PasswordChar = '●';
             this.txtBoxPassword.Size = new System.Drawing.Size(335, 22);
@@ -215,7 +216,7 @@
             // txtBoxConfirmPassword
             // 
             this.txtBoxConfirmPassword.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtBoxConfirmPassword.Location = new System.Drawing.Point(14, 306);
+            this.txtBoxConfirmPassword.Location = new System.Drawing.Point(14, 357);
             this.txtBoxConfirmPassword.Name = "txtBoxConfirmPassword";
             this.txtBoxConfirmPassword.PasswordChar = '●';
             this.txtBoxConfirmPassword.Size = new System.Drawing.Size(335, 22);
@@ -226,7 +227,7 @@
             // 
             this.LLPasswordShow.AutoSize = true;
             this.LLPasswordShow.BackColor = System.Drawing.Color.White;
-            this.LLPasswordShow.Location = new System.Drawing.Point(310, 256);
+            this.LLPasswordShow.Location = new System.Drawing.Point(310, 307);
             this.LLPasswordShow.Name = "LLPasswordShow";
             this.LLPasswordShow.Size = new System.Drawing.Size(34, 13);
             this.LLPasswordShow.TabIndex = 10;
@@ -237,7 +238,7 @@
             // txtboxLName
             // 
             this.txtboxLName.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtboxLName.Location = new System.Drawing.Point(189, 86);
+            this.txtboxLName.Location = new System.Drawing.Point(189, 137);
             this.txtboxLName.Name = "txtboxLName";
             this.txtboxLName.Size = new System.Drawing.Size(163, 22);
             this.txtboxLName.TabIndex = 7;
@@ -248,7 +249,7 @@
             this.lName.AutoSize = true;
             this.lName.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lName.ForeColor = System.Drawing.SystemColors.GrayText;
-            this.lName.Location = new System.Drawing.Point(186, 65);
+            this.lName.Location = new System.Drawing.Point(186, 116);
             this.lName.Name = "lName";
             this.lName.Size = new System.Drawing.Size(80, 18);
             this.lName.TabIndex = 14;
@@ -257,7 +258,7 @@
             // txtboxEMail
             // 
             this.txtboxEMail.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtboxEMail.Location = new System.Drawing.Point(189, 141);
+            this.txtboxEMail.Location = new System.Drawing.Point(189, 192);
             this.txtboxEMail.Name = "txtboxEMail";
             this.txtboxEMail.Size = new System.Drawing.Size(163, 22);
             this.txtboxEMail.TabIndex = 8;
@@ -268,7 +269,7 @@
             this.eMail.AutoSize = true;
             this.eMail.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.eMail.ForeColor = System.Drawing.SystemColors.GrayText;
-            this.eMail.Location = new System.Drawing.Point(186, 120);
+            this.eMail.Location = new System.Drawing.Point(186, 171);
             this.eMail.Name = "eMail";
             this.eMail.Size = new System.Drawing.Size(68, 18);
             this.eMail.TabIndex = 15;
@@ -286,7 +287,7 @@
             // 
             this.llCnfShow.AutoSize = true;
             this.llCnfShow.BackColor = System.Drawing.Color.White;
-            this.llCnfShow.Location = new System.Drawing.Point(310, 311);
+            this.llCnfShow.Location = new System.Drawing.Point(310, 362);
             this.llCnfShow.Name = "llCnfShow";
             this.llCnfShow.Size = new System.Drawing.Size(34, 13);
             this.llCnfShow.TabIndex = 12;
@@ -294,12 +295,24 @@
             this.llCnfShow.Text = "Show";
             this.llCnfShow.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.llCnfShow_LinkClicked);
             // 
+            // UserSignupLabel
+            // 
+            this.UserSignupLabel.AutoSize = true;
+            this.UserSignupLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.UserSignupLabel.ForeColor = System.Drawing.SystemColors.GrayText;
+            this.UserSignupLabel.Location = new System.Drawing.Point(94, 66);
+            this.UserSignupLabel.Name = "UserSignupLabel";
+            this.UserSignupLabel.Size = new System.Drawing.Size(180, 33);
+            this.UserSignupLabel.TabIndex = 16;
+            this.UserSignupLabel.Text = "User SignUp";
+            // 
             // SignupForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(365, 436);
+            this.ClientSize = new System.Drawing.Size(365, 480);
+            this.Controls.Add(this.UserSignupLabel);
             this.Controls.Add(this.llCnfShow);
             this.Controls.Add(this.txtboxEMail);
             this.Controls.Add(this.eMail);
@@ -357,5 +370,6 @@
         private System.Windows.Forms.ErrorProvider errorProvider1;
         private System.Windows.Forms.ErrorProvider errorProvider2;
         private System.Windows.Forms.LinkLabel llCnfShow;
+        private System.Windows.Forms.Label UserSignupLabel;
     }
 }
