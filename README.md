@@ -1,3 +1,2 @@
 # Inventory-Management-Software
-Inventory Management Software
-PGDIT project
+Inventory Management Software | PGDIT project
