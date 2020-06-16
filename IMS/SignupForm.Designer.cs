@@ -53,9 +53,11 @@
             this.errorProvider2 = new System.Windows.Forms.ErrorProvider(this.components);
             this.llCnfShow = new System.Windows.Forms.LinkLabel();
             this.UserSignupLabel = new System.Windows.Forms.Label();
+            this.errorProvider3 = new System.Windows.Forms.ErrorProvider(this.components);
             this.SignUpPanel.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.errorProvider1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.errorProvider2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.errorProvider3)).BeginInit();
             this.SuspendLayout();
             // 
             // SignUpPanel
@@ -195,6 +197,7 @@
             this.txtBoxMobileNo.Size = new System.Drawing.Size(163, 22);
             this.txtBoxMobileNo.TabIndex = 7;
             this.txtBoxMobileNo.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtBoxMobileNo_KeyPress);
+            this.txtBoxMobileNo.Leave += new System.EventHandler(this.txtBoxMobileNo_Leave);
             // 
             // txtUid
             // 
@@ -212,6 +215,7 @@
             this.txtBoxPassword.PasswordChar = '●';
             this.txtBoxPassword.Size = new System.Drawing.Size(335, 22);
             this.txtBoxPassword.TabIndex = 9;
+            this.txtBoxPassword.Leave += new System.EventHandler(this.txtBoxPassword_Leave);
             // 
             // txtBoxConfirmPassword
             // 
@@ -306,6 +310,10 @@
             this.UserSignupLabel.TabIndex = 16;
             this.UserSignupLabel.Text = "User SignUp";
             // 
+            // errorProvider3
+            // 
+            this.errorProvider3.ContainerControl = this;
+            // 
             // SignupForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -340,6 +348,7 @@
             this.SignUpPanel.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.errorProvider1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.errorProvider2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.errorProvider3)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -371,5 +380,6 @@
         private System.Windows.Forms.ErrorProvider errorProvider2;
         private System.Windows.Forms.LinkLabel llCnfShow;
         private System.Windows.Forms.Label UserSignupLabel;
+        private System.Windows.Forms.ErrorProvider errorProvider3;
     }
 }
