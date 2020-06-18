@@ -28,7 +28,10 @@
         /// </summary>
         private void InitializeComponent()
         {
+<<<<<<< HEAD
             this.components = new System.ComponentModel.Container();
+=======
+>>>>>>> f38e2f5a7924142f1345d5d755958744ee721974
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(LoginForm));
             this.LoginPicture = new System.Windows.Forms.PictureBox();
             this.UserLoginLabel = new System.Windows.Forms.Label();
@@ -44,6 +47,7 @@
             this.LLPasswordShow = new System.Windows.Forms.LinkLabel();
             this.panel1 = new System.Windows.Forms.Panel();
             this.label1 = new System.Windows.Forms.Label();
+<<<<<<< HEAD
             this.errorProvider1 = new System.Windows.Forms.ErrorProvider(this.components);
             this.errorProvider2 = new System.Windows.Forms.ErrorProvider(this.components);
             this.errorProvider3 = new System.Windows.Forms.ErrorProvider(this.components);
@@ -52,6 +56,10 @@
             ((System.ComponentModel.ISupportInitialize)(this.errorProvider1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.errorProvider2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.errorProvider3)).BeginInit();
+=======
+            ((System.ComponentModel.ISupportInitialize)(this.LoginPicture)).BeginInit();
+            this.panel1.SuspendLayout();
+>>>>>>> f38e2f5a7924142f1345d5d755958744ee721974
             this.SuspendLayout();
             // 
             // LoginPicture
@@ -149,7 +157,10 @@
             this.btnLogin.TabIndex = 10;
             this.btnLogin.Text = "Login";
             this.btnLogin.UseVisualStyleBackColor = false;
+<<<<<<< HEAD
             this.btnLogin.Click += new System.EventHandler(this.btnLogin_Click);
+=======
+>>>>>>> f38e2f5a7924142f1345d5d755958744ee721974
             // 
             // btnSignup
             // 
@@ -214,6 +225,7 @@
             this.label1.TabIndex = 0;
             this.label1.Text = "Dhruv Stock System";
             // 
+<<<<<<< HEAD
             // errorProvider1
             // 
             this.errorProvider1.ContainerControl = this;
@@ -226,6 +238,8 @@
             // 
             this.errorProvider3.ContainerControl = this;
             // 
+=======
+>>>>>>> f38e2f5a7924142f1345d5d755958744ee721974
             // LoginForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -253,9 +267,12 @@
             ((System.ComponentModel.ISupportInitialize)(this.LoginPicture)).EndInit();
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
+<<<<<<< HEAD
             ((System.ComponentModel.ISupportInitialize)(this.errorProvider1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.errorProvider2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.errorProvider3)).EndInit();
+=======
+>>>>>>> f38e2f5a7924142f1345d5d755958744ee721974
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -277,9 +294,12 @@
         private System.Windows.Forms.LinkLabel LLPasswordShow;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Label label1;
+<<<<<<< HEAD
         private System.Windows.Forms.ErrorProvider errorProvider1;
         private System.Windows.Forms.ErrorProvider errorProvider2;
         private System.Windows.Forms.ErrorProvider errorProvider3;
+=======
+>>>>>>> f38e2f5a7924142f1345d5d755958744ee721974
     }
 }
 

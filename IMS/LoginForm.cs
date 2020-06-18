@@ -7,7 +7,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+<<<<<<< HEAD
 using System.Data.SqlClient;
+=======
+>>>>>>> f38e2f5a7924142f1345d5d755958744ee721974
 
 namespace IMS
 {
@@ -32,7 +35,11 @@ namespace IMS
         //Hide Show Password
         private void LLPasswordShow_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
+<<<<<<< HEAD
             if (LLPasswordShow.Text == "Show")
+=======
+            if(LLPasswordShow.Text == "Show")
+>>>>>>> f38e2f5a7924142f1345d5d755958744ee721974
             {
                 txtBoxPassword.PasswordChar = '\0';
                 LLPasswordShow.Text = "Hide";
@@ -53,13 +60,17 @@ namespace IMS
             }
         }
 
+<<<<<<< HEAD
         // To Signup Page
+=======
+>>>>>>> f38e2f5a7924142f1345d5d755958744ee721974
         private void btnSignup_Click(object sender, EventArgs e)
         {
             SignupForm sf = new SignupForm();
             sf.Show();
             this.Hide();
         }
+<<<<<<< HEAD
 
         // Login Button
         private void btnLogin_Click(object sender, EventArgs e)
@@ -105,5 +116,7 @@ namespace IMS
                 errorProvider3.SetError(btnLogin, "Kindly Enter Correct Username and Password");
             }            
         }
+=======
+>>>>>>> f38e2f5a7924142f1345d5d755958744ee721974
     }
 }

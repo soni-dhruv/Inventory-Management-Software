@@ -19,4 +19,9 @@ E:\MY PGDIT\Semester 2\IMS\IMS\obj\Debug\IMS.csproj.CoreCompileInputs.cache
 E:\MY PGDIT\Semester 2\IMS\IMS\obj\Debug\IMS.exe
 E:\MY PGDIT\Semester 2\IMS\IMS\obj\Debug\IMS.pdb
 E:\MY PGDIT\Semester 2\IMS\IMS\obj\Debug\IMS.SignupForm.resources
+<<<<<<< HEAD
 E:\MY PGDIT\Semester 2\IMS\IMS\obj\Debug\IMS.HomePage.resources
+=======
+E:\MY PGDIT\Semester 2\IMS\IMS\bin\Debug\Database.mdf
+E:\MY PGDIT\Semester 2\IMS\IMS\bin\Debug\Database_log.ldf
+>>>>>>> f38e2f5a7924142f1345d5d755958744ee721974

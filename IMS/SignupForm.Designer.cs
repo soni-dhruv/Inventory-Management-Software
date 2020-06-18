@@ -41,11 +41,19 @@
             this.btn2Login = new System.Windows.Forms.Button();
             this.txtBoxFName = new System.Windows.Forms.TextBox();
             this.txtBoxMobileNo = new System.Windows.Forms.TextBox();
+<<<<<<< HEAD
             this.txtBoxUid = new System.Windows.Forms.TextBox();
             this.txtBoxPassword = new System.Windows.Forms.TextBox();
             this.txtBoxConfirmPassword = new System.Windows.Forms.TextBox();
             this.LLPasswordShow = new System.Windows.Forms.LinkLabel();
             this.txtBoxLName = new System.Windows.Forms.TextBox();
+=======
+            this.txtUid = new System.Windows.Forms.TextBox();
+            this.txtBoxPassword = new System.Windows.Forms.TextBox();
+            this.txtBoxConfirmPassword = new System.Windows.Forms.TextBox();
+            this.LLPasswordShow = new System.Windows.Forms.LinkLabel();
+            this.txtboxLName = new System.Windows.Forms.TextBox();
+>>>>>>> f38e2f5a7924142f1345d5d755958744ee721974
             this.lName = new System.Windows.Forms.Label();
             this.txtboxEMail = new System.Windows.Forms.TextBox();
             this.eMail = new System.Windows.Forms.Label();
@@ -54,6 +62,7 @@
             this.llCnfShow = new System.Windows.Forms.LinkLabel();
             this.UserSignupLabel = new System.Windows.Forms.Label();
             this.errorProvider3 = new System.Windows.Forms.ErrorProvider(this.components);
+<<<<<<< HEAD
             this.errorProvider4 = new System.Windows.Forms.ErrorProvider(this.components);
             this.errorProvider5 = new System.Windows.Forms.ErrorProvider(this.components);
             this.errorProvider6 = new System.Windows.Forms.ErrorProvider(this.components);
@@ -61,10 +70,13 @@
             this.errorProvider8 = new System.Windows.Forms.ErrorProvider(this.components);
             this.errorProvider9 = new System.Windows.Forms.ErrorProvider(this.components);
             this.errorProvider10 = new System.Windows.Forms.ErrorProvider(this.components);
+=======
+>>>>>>> f38e2f5a7924142f1345d5d755958744ee721974
             this.SignUpPanel.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.errorProvider1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.errorProvider2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.errorProvider3)).BeginInit();
+<<<<<<< HEAD
             ((System.ComponentModel.ISupportInitialize)(this.errorProvider4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.errorProvider5)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.errorProvider6)).BeginInit();
@@ -72,6 +84,8 @@
             ((System.ComponentModel.ISupportInitialize)(this.errorProvider8)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.errorProvider9)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.errorProvider10)).BeginInit();
+=======
+>>>>>>> f38e2f5a7924142f1345d5d755958744ee721974
             this.SuspendLayout();
             // 
             // SignUpPanel
@@ -178,7 +192,10 @@
             this.btnSignUp.TabIndex = 12;
             this.btnSignUp.Text = "Sign Up";
             this.btnSignUp.UseVisualStyleBackColor = false;
+<<<<<<< HEAD
             this.btnSignUp.Click += new System.EventHandler(this.btnSignUp_Click);
+=======
+>>>>>>> f38e2f5a7924142f1345d5d755958744ee721974
             // 
             // btn2Login
             // 
@@ -214,6 +231,7 @@
             this.txtBoxMobileNo.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtBoxMobileNo_KeyPress);
             this.txtBoxMobileNo.Leave += new System.EventHandler(this.txtBoxMobileNo_Leave);
             // 
+<<<<<<< HEAD
             // txtBoxUid
             // 
             this.txtBoxUid.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -221,6 +239,15 @@
             this.txtBoxUid.Name = "txtBoxUid";
             this.txtBoxUid.Size = new System.Drawing.Size(335, 22);
             this.txtBoxUid.TabIndex = 8;
+=======
+            // txtUid
+            // 
+            this.txtUid.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtUid.Location = new System.Drawing.Point(14, 247);
+            this.txtUid.Name = "txtUid";
+            this.txtUid.Size = new System.Drawing.Size(335, 22);
+            this.txtUid.TabIndex = 8;
+>>>>>>> f38e2f5a7924142f1345d5d755958744ee721974
             // 
             // txtBoxPassword
             // 
@@ -254,6 +281,7 @@
             this.LLPasswordShow.Text = "Show";
             this.LLPasswordShow.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.LLPasswordShow_LinkClicked);
             // 
+<<<<<<< HEAD
             // txtBoxLName
             // 
             this.txtBoxLName.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -262,6 +290,16 @@
             this.txtBoxLName.Size = new System.Drawing.Size(163, 22);
             this.txtBoxLName.TabIndex = 7;
             this.txtBoxLName.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtBoxFName_KeyPress);
+=======
+            // txtboxLName
+            // 
+            this.txtboxLName.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtboxLName.Location = new System.Drawing.Point(189, 137);
+            this.txtboxLName.Name = "txtboxLName";
+            this.txtboxLName.Size = new System.Drawing.Size(163, 22);
+            this.txtboxLName.TabIndex = 7;
+            this.txtboxLName.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtBoxFName_KeyPress);
+>>>>>>> f38e2f5a7924142f1345d5d755958744ee721974
             // 
             // lName
             // 
@@ -329,6 +367,7 @@
             // 
             this.errorProvider3.ContainerControl = this;
             // 
+<<<<<<< HEAD
             // errorProvider4
             // 
             this.errorProvider4.ContainerControl = this;
@@ -357,6 +396,8 @@
             // 
             this.errorProvider10.ContainerControl = this;
             // 
+=======
+>>>>>>> f38e2f5a7924142f1345d5d755958744ee721974
             // SignupForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -367,12 +408,20 @@
             this.Controls.Add(this.llCnfShow);
             this.Controls.Add(this.txtboxEMail);
             this.Controls.Add(this.eMail);
+<<<<<<< HEAD
             this.Controls.Add(this.txtBoxLName);
+=======
+            this.Controls.Add(this.txtboxLName);
+>>>>>>> f38e2f5a7924142f1345d5d755958744ee721974
             this.Controls.Add(this.lName);
             this.Controls.Add(this.LLPasswordShow);
             this.Controls.Add(this.txtBoxConfirmPassword);
             this.Controls.Add(this.txtBoxPassword);
+<<<<<<< HEAD
             this.Controls.Add(this.txtBoxUid);
+=======
+            this.Controls.Add(this.txtUid);
+>>>>>>> f38e2f5a7924142f1345d5d755958744ee721974
             this.Controls.Add(this.txtBoxMobileNo);
             this.Controls.Add(this.txtBoxFName);
             this.Controls.Add(this.btn2Login);
@@ -392,6 +441,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.errorProvider1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.errorProvider2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.errorProvider3)).EndInit();
+<<<<<<< HEAD
             ((System.ComponentModel.ISupportInitialize)(this.errorProvider4)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.errorProvider5)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.errorProvider6)).EndInit();
@@ -399,6 +449,8 @@
             ((System.ComponentModel.ISupportInitialize)(this.errorProvider8)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.errorProvider9)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.errorProvider10)).EndInit();
+=======
+>>>>>>> f38e2f5a7924142f1345d5d755958744ee721974
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -417,12 +469,20 @@
         private System.Windows.Forms.Button btn2Login;
         private System.Windows.Forms.TextBox txtBoxFName;
         private System.Windows.Forms.TextBox txtBoxMobileNo;
+<<<<<<< HEAD
         private System.Windows.Forms.TextBox txtBoxUid;
+=======
+        private System.Windows.Forms.TextBox txtUid;
+>>>>>>> f38e2f5a7924142f1345d5d755958744ee721974
         private System.Windows.Forms.TextBox txtBoxPassword;
         private System.Windows.Forms.TextBox txtBoxConfirmPassword;
         private System.Windows.Forms.Button Close;
         private System.Windows.Forms.LinkLabel LLPasswordShow;
+<<<<<<< HEAD
         private System.Windows.Forms.TextBox txtBoxLName;
+=======
+        private System.Windows.Forms.TextBox txtboxLName;
+>>>>>>> f38e2f5a7924142f1345d5d755958744ee721974
         private System.Windows.Forms.Label lName;
         private System.Windows.Forms.TextBox txtboxEMail;
         private System.Windows.Forms.Label eMail;
@@ -431,6 +491,7 @@
         private System.Windows.Forms.LinkLabel llCnfShow;
         private System.Windows.Forms.Label UserSignupLabel;
         private System.Windows.Forms.ErrorProvider errorProvider3;
+<<<<<<< HEAD
         private System.Windows.Forms.ErrorProvider errorProvider4;
         private System.Windows.Forms.ErrorProvider errorProvider5;
         private System.Windows.Forms.ErrorProvider errorProvider6;
@@ -438,5 +499,7 @@
         private System.Windows.Forms.ErrorProvider errorProvider8;
         private System.Windows.Forms.ErrorProvider errorProvider9;
         private System.Windows.Forms.ErrorProvider errorProvider10;
+=======
+>>>>>>> f38e2f5a7924142f1345d5d755958744ee721974
     }
 }
